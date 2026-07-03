@@ -113,23 +113,23 @@ a:focus-visible, button:focus-visible {
 .hero-bg-icon {
   position: absolute;
   z-index: 0;
-  opacity: 0.5;
+  opacity: 0.55;
   pointer-events: none;
 }
 
 .hero-bg-microscope {
-  width: 300px;
+  width: 260px;
   height: auto;
-  top: 0px;
-  right: 30px;
+  top: 10px;
+  right: 40px;
 }
 
 .hero-bg-dna {
-  width: 210px;
+  width: 170px;
   height: auto;
-  bottom: -20px;
+  top: 340px;
   right: 10px;
-  opacity: 0.4;
+  opacity: 0.45;
 }
 
 @media (max-width: 900px) {
@@ -184,6 +184,13 @@ a:focus-visible, button:focus-visible {
   opacity: 0.92;
 }
 
+.icon-bacteria-side {
+  width: 150px;
+  height: auto;
+  margin: 18px 0 0 -6px;
+  opacity: 0.85;
+}
+
 @media (max-width: 640px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -192,6 +199,7 @@ a:focus-visible, button:focus-visible {
     width: 170px;
     margin: 0 auto 8px;
   }
+  .icon-bacteria-side { display: none; }
 }
 
 .eyebrow {
